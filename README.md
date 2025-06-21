@@ -9,8 +9,7 @@ sudo yum install java-17-amazon-corretto-devel -y
 
 ####  Create sonar User
 ```
-sudo groupadd sonar
-sudo useradd -g sonar -d /opt/sonar -s /bin/false sonar
+sudo useradd -r sonar 
 ```
 ####  Give sudo permission for "sonar"  User
 ```
@@ -24,7 +23,6 @@ Add the below line and Save.
 sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.2.77730.zip -P /opt
 sudo unzip /opt/sonarqube-9.9.2.77730.zip -d /opt
 sudo mv /opt/sonarqube-9.9.2.77730 /opt/sonar
-
 ```
 #### Configure Permissions
 ```
