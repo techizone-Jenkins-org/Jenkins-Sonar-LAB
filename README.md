@@ -26,8 +26,8 @@ sudo mv /opt/sonarqube-9.9.2.77730 /opt/sonar
 ```
 #### Configure Permissions
 ```
-chown -R sonar:sonar /opt/sonar/
-chmod -R 775 /opt/sonar/
+sudo chown -R sonar:sonar /opt/sonar/
+sudo chmod -R 775 /opt/sonar/
 ```
 
 #### Start/Stop Manually
