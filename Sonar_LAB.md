@@ -10,9 +10,10 @@ Step:1 ===> Create token in SonarQube server
 Step:2 ==> Integrate SonarQube with Maven
 
 	1. open pom.xml ===> goto <properties> and mention below details
-	
+```
 <properties>
 	<sonar.host.url>Your-Sonar-URL</sonar.host.url>
 	<sonar.login>Sonar-Username</sonar.login>
 	<sonar.password>Sonar-Token</sonar.password>
 </properties>
+```
