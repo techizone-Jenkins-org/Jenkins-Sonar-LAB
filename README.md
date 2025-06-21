@@ -83,6 +83,31 @@ Step:2 ===> go to Administration ===> Security ===> you have an option "Force us
 			By default these Option is Disable we have to Enable that Option and Save
 ```
 
+# create Project for your JAVA Application
+
+
+Project ==> click on Add Project => select Manually
+
+```
+Project Key => Gave the meaningful Name HERE like "j57v-OneOps-project", "Roboshop-Project", "SRE-Project"
+Display Name => Gave the meaningful Name HERE like "j57v-OneOps-project", "Roboshop-Project", "SRE-Project"
+		Using these Dispaly Name only we recoginze the Project
+```
+
+
+```
+Token-Name HERE ==> Mantion the Name for our Token like "j57v-OneOps-project", "Roboshop-Project", "SRE-Project"
+
+	Click on "Generate"
+
+Note ==> KEEP the Token soamewhere Safe
+```
+```
+Select "Maven" because our Project is JAVA
+
+Keep that commands safe somewhere	
+```
+
 
 
 
