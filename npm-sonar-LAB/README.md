@@ -1,4 +1,15 @@
-# nodejs-app-Nexus-LAB
+# nodejs-app-Sonar-LAB
+
+## Install Node
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install 16
+
+node -v
+npm -v
+```
 
 To start this application first you can get this repo code using below url
 #### Clone the Repo
