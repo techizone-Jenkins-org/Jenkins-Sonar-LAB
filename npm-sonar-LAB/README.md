@@ -1,5 +1,4 @@
-# nodejs-app-Sonar-LAB
-
+# nodejs-app-Nexus-LAB
 ## Install Node
 
 ```
@@ -10,13 +9,12 @@ nvm install 16
 node -v
 npm -v
 ```
-
-To start this application first you can get this repo code using below url
+### To start this application first you can get this repo code using below url
 #### Clone the Repo
 ```
-git clone https://github.com/techizone-Jenkins-org/Jenkins-Sonar-LAB.git
+git clone hhttps://github.com/techizone-Jenkins-org/jenkins-Nexus-LAB.git
 
-cd Jenkins-Sonar-LAB/npm-sonar-LAB
+cd jenkins-Nexus-LAB/npm-Nexus-LAB
 ```
 #### Download the Dependencies
 ```
@@ -44,4 +42,31 @@ npm run sonar
 
 node sonar-project.js
 ```
+
+Generate the Nexus token by using base64 encoding as follows.
+```
+echo -n 'admin:passw0rd' | openssl base64
+```
+Create a .npmrc file in your project root directory and add below lines.
+```
+registry=<<NexusRepoURL>>
+_auth=<<Token>>
+email=<<EmailID>>
+always-auth=true
+
+
+In package.json add below entry,
+
+"publishConfig": {
+
+"registry": "http://IPAddress:8081/repository/nodejs-mithuntechnologies/"
+
+}
+
+  npm login --registry=NexusRepoURL
+  
+Execute below command to upload packages to nexus repo.
+
+npm publish
+``` 
 
