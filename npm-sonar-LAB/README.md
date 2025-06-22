@@ -5,7 +5,7 @@ To start this application first you can get this repo code using below url
 ```
 git clone https://github.com/techizone-Jenkins-org/Jenkins-Sonar-LAB.git
 
-cd jenkins-Sonar-LAB/npm-sonar-LAB
+cd Jenkins-Sonar-LAB/npm-sonar-LAB
 ```
 #### Download the Dependencies
 ```
