@@ -3,9 +3,9 @@
 To start this application first you can get this repo code using below url
 #### Clone the Repo
 ```
-git clone hhttps://github.com/techizone-Jenkins-org/jenkins-Nexus-LAB.git
+git clone https://github.com/techizone-Jenkins-org/Jenkins-Sonar-LAB.git
 
-cd jenkins-Nexus-LAB/npm-Nexus-LAB
+cd jenkins-Sonar-LAB/npm-sonar-LAB
 ```
 #### Download the Dependencies
 ```
