@@ -19,11 +19,11 @@ res.send("<h2>Welcome to Node JS express application</h2>"+appEnv.url+appEnv.por
 }).listen(9009);
 console.log(__dirname+"/images/secops-solution.png");
 */
-app.get('/spasecops solutions', function(request, response) {
+app.get('/sapsecopssolutions', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  spasecops solutions. more information or send an email to sapsecopssolutions@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  SapSecOps solutions. for more information or send an email to sapsecopssolutions@gmail.com <center></h2>" );
     response.end();
     
   })
@@ -42,12 +42,12 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'Venkatesh Peta'});
+        //res.json({'name': 'Venkatesh P'});
         res.send({
-		'name': 'spasecops solutions',
+		'name': 'sapsecops solutions',
 		'technology': 'DevOps',
 		'contact' : '123456789',
-		'email': 'spasecopssolutions@gmail.com'
+		'email': 'sapsecopssolutions@gmail.com'
 	            });
         
         });
@@ -70,12 +70,12 @@ app.get("/status-code-500", function(req, res) {
 
 app.get('/redirect', function(req, res) {
     //Send status 300
-        res.redirect('http://spasecopssolutions.com');
+        res.redirect('http://sapsecopssolutions.com');
     });
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/spasecopssolutions");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/sapsecopssolutions");
       })
     
 
